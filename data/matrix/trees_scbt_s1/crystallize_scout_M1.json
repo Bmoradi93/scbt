@@ -1,0 +1,34 @@
+{
+ "class": "scout",
+ "mission": "M1",
+ "applied": [
+  {
+   "patch_id": "p0001",
+   "anchor": "wp1",
+   "operator": "WrapFallback",
+   "theta": [
+    7.722,
+    3.7956
+   ],
+   "score": 0.1582,
+   "uses": 9,
+   "successes": 5
+  },
+  {
+   "patch_id": "p0009",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    10.0203,
+    5.9495
+   ],
+   "score": 0.9267,
+   "uses": 6,
+   "successes": 6
+  }
+ ],
+ "skipped": [],
+ "nodes": 29,
+ "depth": 10,
+ "base_nodes": 15
+}

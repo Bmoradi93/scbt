@@ -1,0 +1,47 @@
+{
+ "class": "scout",
+ "mission": "M1",
+ "applied": [
+  {
+   "patch_id": "p0003",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    14.4287,
+    3.6837,
+    67.8432
+   ],
+   "score": 0.8951,
+   "uses": 9,
+   "successes": 9
+  },
+  {
+   "patch_id": "p0008",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    15.7073,
+    5.5685,
+    70.4016
+   ],
+   "score": 0.9176,
+   "uses": 1,
+   "successes": 1
+  },
+  {
+   "patch_id": "p0004",
+   "anchor": "wp1",
+   "operator": "WrapFallback",
+   "theta": [
+    11.1642
+   ],
+   "score": 0.7344,
+   "uses": 5,
+   "successes": 5
+  }
+ ],
+ "skipped": [],
+ "nodes": 38,
+ "depth": 11,
+ "base_nodes": 15
+}

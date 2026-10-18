@@ -1,0 +1,125 @@
+{
+ "class": "scout",
+ "mission": "M1",
+ "applied": [
+  {
+   "patch_id": "p0006",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    15.0,
+    5.0,
+    4.0
+   ],
+   "score": 0.8706,
+   "uses": 1,
+   "successes": 1
+  },
+  {
+   "patch_id": "p0002",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    15.0,
+    4.0
+   ],
+   "score": 0.9148,
+   "uses": 7,
+   "successes": 7
+  },
+  {
+   "patch_id": "p0001",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    15.0,
+    4.0
+   ],
+   "score": 0.9252,
+   "uses": 6,
+   "successes": 6
+  },
+  {
+   "patch_id": "p0008",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    15.0,
+    4.0
+   ],
+   "score": 0.9531,
+   "uses": 3,
+   "successes": 3
+  },
+  {
+   "patch_id": "p0010",
+   "anchor": "ReactiveSequence_1",
+   "operator": "WrapFallback",
+   "theta": [
+    10.0,
+    4.0
+   ],
+   "score": 0.6328,
+   "uses": 2,
+   "successes": 1
+  },
+  {
+   "patch_id": "p0007",
+   "anchor": "ReactiveSequence_1",
+   "operator": "WrapFallback",
+   "theta": [
+    10.0,
+    4.0
+   ],
+   "score": 0.6585,
+   "uses": 2,
+   "successes": 1
+  },
+  {
+   "patch_id": "p0003",
+   "anchor": "ReactiveSequence_1",
+   "operator": "WrapFallback",
+   "theta": [
+    10.0,
+    4.0
+   ],
+   "score": 0.7777,
+   "uses": 4,
+   "successes": 3
+  },
+  {
+   "patch_id": "p0004",
+   "anchor": "ReactiveSequence_1",
+   "operator": "WrapFallback",
+   "theta": [
+    10.0,
+    4.0
+   ],
+   "score": 0.9941,
+   "uses": 2,
+   "successes": 2
+  },
+  {
+   "patch_id": "p0009",
+   "anchor": "wp1",
+   "operator": "WrapRetry",
+   "theta": [],
+   "score": 0.7651,
+   "uses": 1,
+   "successes": 1
+  },
+  {
+   "patch_id": "p0005",
+   "anchor": "wp1",
+   "operator": "WrapRetry",
+   "theta": [],
+   "score": 0.811,
+   "uses": 4,
+   "successes": 4
+  }
+ ],
+ "skipped": [],
+ "nodes": 84,
+ "depth": 13,
+ "base_nodes": 15
+}

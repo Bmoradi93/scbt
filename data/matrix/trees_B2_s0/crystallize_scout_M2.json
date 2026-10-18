@@ -1,0 +1,117 @@
+{
+ "class": "scout",
+ "mission": "M2",
+ "applied": [
+  {
+   "patch_id": "p0001",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    19.7157,
+    3.8308
+   ],
+   "score": 0.8703,
+   "uses": 1,
+   "successes": 1
+  },
+  {
+   "patch_id": "p0013",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    10.1966,
+    5.797
+   ],
+   "score": 0.8866,
+   "uses": 1,
+   "successes": 1
+  },
+  {
+   "patch_id": "p0014",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    15.5861,
+    5.1801
+   ],
+   "score": 0.8968,
+   "uses": 1,
+   "successes": 1
+  },
+  {
+   "patch_id": "p0005",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    14.4224,
+    5.6975
+   ],
+   "score": 0.8991,
+   "uses": 1,
+   "successes": 1
+  },
+  {
+   "patch_id": "p0015",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    15.8141,
+    5.6324
+   ],
+   "score": 0.9002,
+   "uses": 1,
+   "successes": 1
+  },
+  {
+   "patch_id": "p0011",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    18.3021,
+    5.0676
+   ],
+   "score": 0.9191,
+   "uses": 1,
+   "successes": 1
+  },
+  {
+   "patch_id": "p0002",
+   "anchor": "IsBatteryOk_2",
+   "operator": "WrapFallback",
+   "theta": [
+    16.3373
+   ],
+   "score": 0.9219,
+   "uses": 1,
+   "successes": 1
+  },
+  {
+   "patch_id": "p0009",
+   "anchor": "wp1",
+   "operator": "ReplaceSubtree",
+   "theta": [
+    5.3197,
+    9.8462
+   ],
+   "score": 0.789,
+   "uses": 1,
+   "successes": 1
+  },
+  {
+   "patch_id": "p0010",
+   "anchor": "wp2",
+   "operator": "ReplaceSubtree",
+   "theta": [
+    3.0062,
+    10.7594
+   ],
+   "score": -0.1095,
+   "uses": 1,
+   "successes": 0
+  }
+ ],
+ "skipped": [],
+ "nodes": 82,
+ "depth": 16,
+ "base_nodes": 20
+}

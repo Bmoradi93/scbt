@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# pixi
+.pixi/
+pixi.lock
+
+# Local run output (anything produced by `pixi run learn/frozen/matrix` outside data/).
+# data/matrix/*.json, *.xml, and *.log are tracked deliberately (paper results).
+/runs/
+# Bandit covariance-matrix dumps: large (MB-scale) and regenerable, not needed
+# to reproduce the paper's reported numbers (the summaries in data/ suffice).
+*.state.json
+
+# Simulator scratch
+/projectairsim_client.log
+/*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# LaTeX build artifacts (compiled PDFs we want to keep are under paper/, committed explicitly)
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out

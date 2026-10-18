@@ -1,0 +1,58 @@
+<Fallback name="root">
+  <MissionCritical name="mission" patching="false">
+    <Sequence name="mission_seq">
+      <Takeoff name="takeoff" timeout_s="20" min_alt_m="1.5" />
+      <SetSpeed name="cruise" speed="3" />
+      <Fallback name="p0010_fallback">
+        <Fallback name="p0001_fallback">
+          <ReactiveSequence name="guarded_flight">
+            <IsBatteryOk name="battery_guard" min_pct="25" />
+            <IsInsideGeofence name="geofence_guard" margin_m="0" />
+            <Sequence name="waypoints">
+              <Fallback name="p0008_fallback">
+                <GoToNED name="wp1" north="0" east="0" down="-10" velocity="0" timeout_s="40" arrive_tol_m="1.5" goal_id="" />
+                <Sequence name="Sequence_1">
+                  <WaitSimTime name="WaitSimTime_2" duration_s="35.0226" />
+                  <GoToNED name="GoToNED_3" north="0" east="0" down="-10" velocity="0" timeout_s="40" arrive_tol_m="1.5" goal_id="" />
+                </Sequence>
+              </Fallback>
+              <GoToNED name="wp2" north="30" east="0" down="-10" velocity="0" timeout_s="40" arrive_tol_m="1.5" goal_id="lane1" />
+              <GoToNED name="wp3" north="30" east="15" down="-10" velocity="0" timeout_s="40" arrive_tol_m="1.5" goal_id="" />
+              <GoToNED name="wp4" north="0" east="15" down="-10" velocity="0" timeout_s="40" arrive_tol_m="1.5" goal_id="lane2" />
+              <GoToNED name="wp5" north="0" east="30" down="-10" velocity="0" timeout_s="40" arrive_tol_m="1.5" goal_id="" />
+              <GoToNED name="wp6" north="30" east="30" down="-10" velocity="0" timeout_s="40" arrive_tol_m="1.5" goal_id="lane3" />
+              <GoToNED name="wp7" north="0" east="0" down="-10" velocity="0" timeout_s="40" arrive_tol_m="1.5" goal_id="" />
+            </Sequence>
+          </ReactiveSequence>
+          <ReactiveSequence name="p0001_ReactiveSequence_1">
+            <IsBatteryOk name="p0001_IsBatteryOk_2" min_pct="17.7076" />
+            <IsInsideGeofence name="p0001_IsInsideGeofence_3" margin_m="0" />
+            <Sequence name="p0001_Sequence_4">
+              <ForceSuccess name="ForceSuccess_5">
+                <GoToRequiredGoal name="GoToRequiredGoal_6" velocity="4.83238" timeout_s="90" arrive_tol_m="1.5" />
+              </ForceSuccess>
+              <ReturnToLaunch name="ReturnToLaunch_7" timeout_s="120" velocity="4.22052" arrive_tol_m="2" />
+              <Land name="Land_8" timeout_s="60" />
+            </Sequence>
+          </ReactiveSequence>
+        </Fallback>
+        <ReactiveSequence name="p0006_ReactiveSequence_1">
+          <IsBatteryOk name="p0006_IsBatteryOk_2" min_pct="15.8582" />
+          <IsInsideGeofence name="p0006_IsInsideGeofence_3" margin_m="0" />
+          <Sequence name="p0006_Sequence_4">
+            <ForceSuccess name="p0006_ForceSuccess_5">
+              <GoToRequiredGoal name="p0006_GoToRequiredGoal_6" velocity="5.99984" timeout_s="90" arrive_tol_m="1.5" />
+            </ForceSuccess>
+            <ReturnToLaunch name="p0006_ReturnToLaunch_7" timeout_s="120" velocity="5.98836" arrive_tol_m="2" />
+            <Land name="p0006_Land_8" timeout_s="60" />
+          </Sequence>
+        </ReactiveSequence>
+      </Fallback>
+      <Land name="land" timeout_s="60" />
+    </Sequence>
+  </MissionCritical>
+  <Sequence name="abort">
+    <ReturnToLaunch name="rtl" timeout_s="120" velocity="3" arrive_tol_m="2" />
+    <Land name="abort_land" timeout_s="60" />
+  </Sequence>
+</Fallback>

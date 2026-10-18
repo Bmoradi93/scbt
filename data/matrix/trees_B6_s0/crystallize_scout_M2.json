@@ -1,0 +1,34 @@
+{
+ "class": "scout",
+ "mission": "M2",
+ "applied": [
+  {
+   "patch_id": "p0005",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    17.4468,
+    5.5493
+   ],
+   "score": 0.6814,
+   "uses": 5,
+   "successes": 4
+  },
+  {
+   "patch_id": "p0001",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    11.4039,
+    5.058
+   ],
+   "score": 0.8324,
+   "uses": 12,
+   "successes": 11
+  }
+ ],
+ "skipped": [],
+ "nodes": 38,
+ "depth": 9,
+ "base_nodes": 20
+}

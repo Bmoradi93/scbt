@@ -1,0 +1,32 @@
+[matrix] learn B5_s0
+[matrix] frozen B5_s0 heldout=False
+[matrix] frozen B5_s0 heldout=True
+[matrix] done; run: python -m scbt.bench.report --dir runs/matrix
+[matrix] base seed 0 heldout=False
+[matrix] base seed 0 heldout=True
+[matrix] base seed 1 heldout=False
+[matrix] base seed 1 heldout=True
+[matrix] base seed 2 heldout=False
+[matrix] base seed 2 heldout=True
+[matrix] B0 seed 0 heldout=False
+[matrix] B0 seed 0 heldout=True
+[matrix] B0 seed 1 heldout=False
+[matrix] B0 seed 1 heldout=True
+[matrix] B0 seed 2 heldout=False
+[matrix] B0 seed 2 heldout=True
+[matrix] frozen scbt_s0 heldout=False
+[matrix] frozen scbt_s0 heldout=True
+[matrix] frozen scbt_s1 heldout=False
+[matrix] frozen scbt_s1 heldout=True
+[matrix] frozen scbt_s2 heldout=False
+[matrix] frozen scbt_s2 heldout=True
+[matrix] done; run: python -m scbt.bench.report --dir runs/matrix
+[matrix] frozen B2_s0 heldout=False
+[matrix] frozen B2_s0 heldout=True
+[matrix] frozen B3_s0 heldout=False
+[matrix] frozen B3_s0 heldout=True
+[matrix] frozen B4_s0 heldout=False
+[matrix] frozen B4_s0 heldout=True
+[matrix] frozen B6_s0 heldout=False
+[matrix] frozen B6_s0 heldout=True
+[matrix] done; run: python -m scbt.bench.report --dir runs/matrix

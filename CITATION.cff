@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying paper, please cite it as below."
+title: "SCBT: Self-Crystallizing Behavior Trees"
+authors:
+  - family-names: Moradi
+    given-names: Behnam
+date-released: 2026-01-01
+license: MIT
+repository-code: "https://github.com/REPLACE_ME/scbt"
+preferred-citation:
+  type: preprint
+  title: "Self-Crystallizing Behavior Trees: Amortizing Foundation-Model Reasoning into Deterministic Control for Autonomous Drones"
+  authors:
+    - family-names: Moradi
+      given-names: Behnam
+  year: 2026
+  url: "https://arxiv.org/abs/REPLACE_ME"

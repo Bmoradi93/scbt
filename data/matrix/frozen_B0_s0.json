@@ -1,0 +1,612 @@
+{
+ "rows": [
+  {
+   "episode": 0,
+   "mission": "M2",
+   "failure": "F7",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 0.5,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 17.3,
+   "sim_s": 28.7,
+   "trace_hash": "fefc22c719b54210",
+   "params": {
+    "set_pct": 23.758254204533422,
+    "drain_mult": 1.7373349269065315,
+    "_old_drain": 60.0
+   },
+   "trigger": 6.32
+  },
+  {
+   "episode": 1,
+   "mission": "M2",
+   "failure": "F7",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 0.5,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 18.1,
+   "sim_s": 29.5,
+   "trace_hash": "98b66dd2380e2a7a",
+   "params": {
+    "set_pct": 23.241624618744776,
+    "drain_mult": 1.4965984542237085,
+    "_old_drain": 60.0
+   },
+   "trigger": 8.86
+  },
+  {
+   "episode": 2,
+   "mission": "M1",
+   "failure": "F7",
+   "heldout": false,
+   "success": true,
+   "outcome": "abort",
+   "value": 1.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 9.0,
+   "sim_s": 32.9,
+   "trace_hash": "0694a2510e7366b0",
+   "params": {
+    "set_pct": 17.66381534433799,
+    "drain_mult": 2.019462316672919,
+    "_old_drain": 60.0
+   },
+   "trigger": 7.12
+  },
+  {
+   "episode": 3,
+   "mission": "M1",
+   "failure": "F7",
+   "heldout": false,
+   "success": true,
+   "outcome": "abort",
+   "value": 1.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 8.5,
+   "sim_s": 33.0,
+   "trace_hash": "8a9cab6ab972d308",
+   "params": {
+    "set_pct": 17.516197035401078,
+    "drain_mult": 2.0654264436333296,
+    "_old_drain": 60.0
+   },
+   "trigger": 6.79
+  },
+  {
+   "episode": 4,
+   "mission": "M2",
+   "failure": "F7",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 0.5,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 14.4,
+   "sim_s": 29.9,
+   "trace_hash": "a4bcac7e09d66d2d",
+   "params": {
+    "set_pct": 19.476539306634685,
+    "drain_mult": 1.5845770295694341,
+    "_old_drain": 60.0
+   },
+   "trigger": 10.48
+  },
+  {
+   "episode": 5,
+   "mission": "M1",
+   "failure": "F7",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 1.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 15.5,
+   "sim_s": 32.5,
+   "trace_hash": "62a8ff376324c2f9",
+   "params": {
+    "set_pct": 20.64947543906753,
+    "drain_mult": 1.3560516292193907,
+    "_old_drain": 60.0
+   },
+   "trigger": 9.54
+  },
+  {
+   "episode": 6,
+   "mission": "M1",
+   "failure": "F1",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 1.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 61.9,
+   "sim_s": 123.0,
+   "trace_hash": "41b2637b1786efef",
+   "params": {
+    "speed": 24.39294125334561,
+    "heading": 5.182653841118659,
+    "duration_s": 25.022298018477763
+   },
+   "trigger": 11.76
+  },
+  {
+   "episode": 7,
+   "mission": "M1",
+   "failure": "F7",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 1.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 12.6,
+   "sim_s": 33.3,
+   "trace_hash": "8540bffb1f05bb07",
+   "params": {
+    "set_pct": 19.33194596102369,
+    "drain_mult": 1.9572507187179025,
+    "_old_drain": 60.0
+   },
+   "trigger": 12.62
+  },
+  {
+   "episode": 8,
+   "mission": "M1",
+   "failure": "F1",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 1.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 62.1,
+   "sim_s": 122.0,
+   "trace_hash": "97fe7aad3ca56da4",
+   "params": {
+    "speed": 23.33022337728512,
+    "heading": 5.047565840806807,
+    "duration_s": 17.137415908632367
+   },
+   "trigger": 13.34
+  },
+  {
+   "episode": 9,
+   "mission": "M2",
+   "failure": "F1",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 1.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 46.4,
+   "sim_s": 216.4,
+   "trace_hash": "f022e7f25748f4c6",
+   "params": {
+    "speed": 23.920327628035274,
+    "heading": 3.191485182004629,
+    "duration_s": 28.9925073634036
+   },
+   "trigger": 6.64
+  },
+  {
+   "episode": 10,
+   "mission": "M1",
+   "failure": "F7",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 1.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 15.3,
+   "sim_s": 32.7,
+   "trace_hash": "fc746473acb7b77b",
+   "params": {
+    "set_pct": 21.945929869068227,
+    "drain_mult": 1.7926968201955815,
+    "_old_drain": 60.0
+   },
+   "trigger": 10.41
+  },
+  {
+   "episode": 11,
+   "mission": "M1",
+   "failure": "F7",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 1.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 14.9,
+   "sim_s": 32.5,
+   "trace_hash": "62a8ff376324c2f9",
+   "params": {
+    "set_pct": 21.174008031081744,
+    "drain_mult": 1.6464110313753946,
+    "_old_drain": 60.0
+   },
+   "trigger": 9.56
+  },
+  {
+   "episode": 12,
+   "mission": "M1",
+   "failure": "F7",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 1.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 17.3,
+   "sim_s": 31.9,
+   "trace_hash": "7f6c9eb03c5df240",
+   "params": {
+    "set_pct": 22.750270503067274,
+    "drain_mult": 1.3296751733980765,
+    "_old_drain": 60.0
+   },
+   "trigger": 7.47
+  },
+  {
+   "episode": 13,
+   "mission": "M2",
+   "failure": "F7",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 0.5,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 16.5,
+   "sim_s": 28.9,
+   "trace_hash": "03afe00748291715",
+   "params": {
+    "set_pct": 21.751067715162243,
+    "drain_mult": 1.4172020054541032,
+    "_old_drain": 60.0
+   },
+   "trigger": 6.55
+  },
+  {
+   "episode": 14,
+   "mission": "M1",
+   "failure": "F1",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 1.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 51.4,
+   "sim_s": 186.3,
+   "trace_hash": "a4c2940872555765",
+   "params": {
+    "speed": 27.389038728147273,
+    "heading": 5.799898023193619,
+    "duration_s": 23.108998874220816
+   },
+   "trigger": 12.74
+  },
+  {
+   "episode": 15,
+   "mission": "M2",
+   "failure": "F7",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 0.5,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 13.8,
+   "sim_s": 29.8,
+   "trace_hash": "cd5b249baa57c98c",
+   "params": {
+    "set_pct": 18.64851214696766,
+    "drain_mult": 1.4936811656172206,
+    "_old_drain": 60.0
+   },
+   "trigger": 10.17
+  },
+  {
+   "episode": 16,
+   "mission": "M2",
+   "failure": "F7",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 0.5,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 14.3,
+   "sim_s": 29.7,
+   "trace_hash": "3d1733a8b3beab6c",
+   "params": {
+    "set_pct": 21.62171765035672,
+    "drain_mult": 2.1966320554182155,
+    "_old_drain": 60.0
+   },
+   "trigger": 9.6
+  },
+  {
+   "episode": 17,
+   "mission": "M2",
+   "failure": "F1",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 1.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 56.7,
+   "sim_s": 154.3,
+   "trace_hash": "886f030d571bca23",
+   "params": {
+    "speed": 22.692098460485525,
+    "heading": 3.6886991400176554,
+    "duration_s": 20.029057172508267
+   },
+   "trigger": 8.59
+  },
+  {
+   "episode": 18,
+   "mission": "M1",
+   "failure": "F1",
+   "heldout": false,
+   "success": true,
+   "outcome": "mission",
+   "value": 1.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 58.3,
+   "sim_s": 144.6,
+   "trace_hash": "cd1f9d2d579019ec",
+   "params": {
+    "speed": 23.626227756610554,
+    "heading": 4.431738666801269,
+    "duration_s": 20.5809028962161
+   },
+   "trigger": 6.13
+  },
+  {
+   "episode": 19,
+   "mission": "M1",
+   "failure": "F7",
+   "heldout": false,
+   "success": true,
+   "outcome": "abort",
+   "value": 1.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 9.5,
+   "sim_s": 33.0,
+   "trace_hash": "27b2ad58ccb7081c",
+   "params": {
+    "set_pct": 17.435347189785933,
+    "drain_mult": 2.0048066588619546,
+    "_old_drain": 60.0
+   },
+   "trigger": 9.41
+  }
+ ],
+ "summary": {
+  "method": "expert",
+  "heldout": false,
+  "episodes": 20,
+  "success_rate": 1.0,
+  "mean_value": 0.85,
+  "by_failure": {
+   "F7": {
+    "n": 14,
+    "success": 14,
+    "value": 0.786,
+    "aborts": 3
+   },
+   "F1": {
+    "n": 6,
+    "success": 6,
+    "value": 1.0,
+    "aborts": 0
+   }
+  },
+  "determinism": {
+   "reps": 10,
+   "distinct_hashes": 1,
+   "max_tick_spread": 0,
+   "offline": {
+    "logs": 10,
+    "reticks_per_log": 3,
+    "max_distinct_per_log": 1,
+    "online_equals_offline": 10
+   }
+  },
+  "llm_calls": 0
+ },
+ "args": {
+  "library": null,
+  "state": null,
+  "base": false,
+  "expert": true,
+  "episodes": 20,
+  "inject": [
+   "F1",
+   "F7"
+  ],
+  "missions": [
+   "M1",
+   "M2"
+  ],
+  "heldout": false,
+  "ndet": 10,
+  "seed": 0,
+  "instance": 5,
+  "time_scale": 10.0,
+  "out": "runs/matrix/frozen_B0_s0.json",
+  "tree_dir": null,
+  "verbose": false
+ },
+ "det_hashes": [
+  "fefc22c719b54210a0abdda0f26432f16ad47dd119acc0525849bfa21e6c57ca",
+  "fefc22c719b54210a0abdda0f26432f16ad47dd119acc0525849bfa21e6c57ca",
+  "fefc22c719b54210a0abdda0f26432f16ad47dd119acc0525849bfa21e6c57ca",
+  "fefc22c719b54210a0abdda0f26432f16ad47dd119acc0525849bfa21e6c57ca",
+  "fefc22c719b54210a0abdda0f26432f16ad47dd119acc0525849bfa21e6c57ca",
+  "fefc22c719b54210a0abdda0f26432f16ad47dd119acc0525849bfa21e6c57ca",
+  "fefc22c719b54210a0abdda0f26432f16ad47dd119acc0525849bfa21e6c57ca",
+  "fefc22c719b54210a0abdda0f26432f16ad47dd119acc0525849bfa21e6c57ca",
+  "fefc22c719b54210a0abdda0f26432f16ad47dd119acc0525849bfa21e6c57ca",
+  "fefc22c719b54210a0abdda0f26432f16ad47dd119acc0525849bfa21e6c57ca"
+ ]
+}

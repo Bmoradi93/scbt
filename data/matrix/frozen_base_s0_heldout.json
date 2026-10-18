@@ -1,0 +1,591 @@
+{
+ "rows": [
+  {
+   "episode": 0,
+   "mission": "M2",
+   "failure": "F7",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 6.4,
+   "sim_s": 55.3,
+   "trace_hash": "c5753990125fc29b",
+   "params": {
+    "set_pct": 16.836468663570265,
+    "drain_mult": 1.2829852903658991,
+    "_old_drain": 60.0
+   },
+   "trigger": 6.32
+  },
+  {
+   "episode": 1,
+   "mission": "M2",
+   "failure": "F7",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 13.9,
+   "sim_s": 18.5,
+   "trace_hash": "f334eaad8dc8928f",
+   "params": {
+    "set_pct": 15.563675688799407,
+    "drain_mult": 1.2755804204157224,
+    "_old_drain": 60.0
+   },
+   "trigger": 10.67
+  },
+  {
+   "episode": 2,
+   "mission": "M2",
+   "failure": "F1",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 7,
+    "separation": 0
+   },
+   "min_batt": 64.1,
+   "sim_s": 110.2,
+   "trace_hash": "09d88e76606d3fbc",
+   "params": {
+    "speed": 28.944285430905428,
+    "heading": 5.647567524490951,
+    "duration_s": 30.604207248410194
+   },
+   "trigger": 8.48
+  },
+  {
+   "episode": 3,
+   "mission": "M2",
+   "failure": "F7",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 14.2,
+   "sim_s": 19.0,
+   "trace_hash": "cd7351200bce0fe8",
+   "params": {
+    "set_pct": 15.954019553105434,
+    "drain_mult": 1.286530992777164,
+    "_old_drain": 60.0
+   },
+   "trigger": 10.89
+  },
+  {
+   "episode": 4,
+   "mission": "M2",
+   "failure": "F1",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 467,
+    "altitude": 0,
+    "speed": 56,
+    "separation": 0
+   },
+   "min_batt": 59.1,
+   "sim_s": 140.0,
+   "trace_hash": "c7b89536f8fbe521",
+   "params": {
+    "speed": 28.79764708444854,
+    "heading": 0.08822660415838508,
+    "duration_s": 34.949069862889395
+   },
+   "trigger": 12.44
+  },
+  {
+   "episode": 5,
+   "mission": "M1",
+   "failure": "F7",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 13.5,
+   "sim_s": 26.9,
+   "trace_hash": "3713738b23096466",
+   "params": {
+    "set_pct": 16.40728509233104,
+    "drain_mult": 1.20629842742612,
+    "_old_drain": 60.0
+   },
+   "trigger": 12.62
+  },
+  {
+   "episode": 6,
+   "mission": "M1",
+   "failure": "F1",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 597,
+    "altitude": 0,
+    "speed": 200,
+    "separation": 0
+   },
+   "min_batt": 58.1,
+   "sim_s": 146.2,
+   "trace_hash": "d3ce7cdf3353a948",
+   "params": {
+    "speed": 29.986443107128956,
+    "heading": 3.41170652410395,
+    "duration_s": 35.25052372401687
+   },
+   "trigger": 12.43
+  },
+  {
+   "episode": 7,
+   "mission": "M2",
+   "failure": "F1",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 307,
+    "altitude": 323,
+    "speed": 465,
+    "separation": 0
+   },
+   "min_batt": 59.7,
+   "sim_s": 136.5,
+   "trace_hash": "f7fc28f0f95b1911",
+   "params": {
+    "speed": 29.8444994619531,
+    "heading": 0.7842088483299069,
+    "duration_s": 31.2192111148166
+   },
+   "trigger": 8.41
+  },
+  {
+   "episode": 8,
+   "mission": "M2",
+   "failure": "F7",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 5.2,
+   "sim_s": 57.4,
+   "trace_hash": "e00633e6dfddca6c",
+   "params": {
+    "set_pct": 15.484214310203932,
+    "drain_mult": 1.2183868722538584,
+    "_old_drain": 60.0
+   },
+   "trigger": 6.73
+  },
+  {
+   "episode": 9,
+   "mission": "M1",
+   "failure": "F1",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 366,
+    "altitude": 0,
+    "speed": 132,
+    "separation": 0
+   },
+   "min_batt": 60.0,
+   "sim_s": 134.8,
+   "trace_hash": "755ba841b5a5f463",
+   "params": {
+    "speed": 29.515207843932874,
+    "heading": 2.9941325274090542,
+    "duration_s": 35.26062222493665
+   },
+   "trigger": 10.9
+  },
+  {
+   "episode": 10,
+   "mission": "M1",
+   "failure": "F1",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 70,
+    "separation": 0
+   },
+   "min_batt": 62.7,
+   "sim_s": 118.2,
+   "trace_hash": "f48f2a34e784222e",
+   "params": {
+    "speed": 29.410566799708814,
+    "heading": 3.3966895054960027,
+    "duration_s": 31.653804727872764
+   },
+   "trigger": 13.19
+  },
+  {
+   "episode": 11,
+   "mission": "M1",
+   "failure": "F1",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 804,
+    "altitude": 96,
+    "speed": 125,
+    "separation": 0
+   },
+   "min_batt": 56.8,
+   "sim_s": 153.8,
+   "trace_hash": "9e0bf170311d6ad2",
+   "params": {
+    "speed": 28.90112621326231,
+    "heading": 5.967548696767342,
+    "duration_s": 33.96147227173434
+   },
+   "trigger": 13.16
+  },
+  {
+   "episode": 12,
+   "mission": "M2",
+   "failure": "F1",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 36,
+    "separation": 0
+   },
+   "min_batt": 65.2,
+   "sim_s": 103.4,
+   "trace_hash": "2f58d622fcd5b50e",
+   "params": {
+    "speed": 28.380757693097525,
+    "heading": 3.6886991400176554,
+    "duration_s": 30.097254159964137
+   },
+   "trigger": 8.59
+  },
+  {
+   "episode": 13,
+   "mission": "M2",
+   "failure": "F1",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 382,
+    "altitude": 0,
+    "speed": 75,
+    "separation": 0
+   },
+   "min_batt": 59.7,
+   "sim_s": 136.3,
+   "trace_hash": "1b34be5e5a1a2d30",
+   "params": {
+    "speed": 28.124384911367407,
+    "heading": 1.0711685757058114,
+    "duration_s": 34.6987110590797
+   },
+   "trigger": 11.64
+  },
+  {
+   "episode": 14,
+   "mission": "M1",
+   "failure": "F1",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 254,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 61.4,
+   "sim_s": 126.3,
+   "trace_hash": "0ba8cc6815f8f2eb",
+   "params": {
+    "speed": 28.147993788520942,
+    "heading": 5.884326920647663,
+    "duration_s": 30.74666233219206
+   },
+   "trigger": 12.54
+  },
+  {
+   "episode": 15,
+   "mission": "M1",
+   "failure": "F1",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 231,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 61.2,
+   "sim_s": 127.1,
+   "trace_hash": "028a284d23ea1777",
+   "params": {
+    "speed": 28.04327301971005,
+    "heading": 6.160767812791858,
+    "duration_s": 35.766187681437664
+   },
+   "trigger": 9.13
+  },
+  {
+   "episode": 16,
+   "mission": "M1",
+   "failure": "F1",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 803,
+    "altitude": 82,
+    "speed": 159,
+    "separation": 0
+   },
+   "min_batt": 57.5,
+   "sim_s": 149.9,
+   "trace_hash": "56780f3ea435e9c5",
+   "params": {
+    "speed": 29.08847082295446,
+    "heading": 0.3838077201358331,
+    "duration_s": 33.72359982586653
+   },
+   "trigger": 9.83
+  },
+  {
+   "episode": 17,
+   "mission": "M2",
+   "failure": "F1",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 399,
+    "altitude": 0,
+    "speed": 167,
+    "separation": 0
+   },
+   "min_batt": 61.1,
+   "sim_s": 127.9,
+   "trace_hash": "db7034266c7dbb7b",
+   "params": {
+    "speed": 29.007273010419773,
+    "heading": 2.2009619091395365,
+    "duration_s": 30.236272242508154
+   },
+   "trigger": 7.77
+  },
+  {
+   "episode": 18,
+   "mission": "M1",
+   "failure": "F7",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 0,
+    "altitude": 0,
+    "speed": 0,
+    "separation": 0
+   },
+   "min_batt": 14.7,
+   "sim_s": 16.8,
+   "trace_hash": "4a33295f4f6b686d",
+   "params": {
+    "set_pct": 16.676653130386832,
+    "drain_mult": 1.2918482061995331,
+    "_old_drain": 60.0
+   },
+   "trigger": 7.59
+  },
+  {
+   "episode": 19,
+   "mission": "M1",
+   "failure": "F1",
+   "heldout": true,
+   "success": false,
+   "outcome": "abort",
+   "value": 0.0,
+   "events": 0,
+   "patches": 0,
+   "llm_calls": 0,
+   "violations": {
+    "geofence": 324,
+    "altitude": 0,
+    "speed": 20,
+    "separation": 0
+   },
+   "min_batt": 60.4,
+   "sim_s": 132.2,
+   "trace_hash": "5cb0cec91d412298",
+   "params": {
+    "speed": 28.68462508215717,
+    "heading": 4.2487011157984735,
+    "duration_s": 31.50412403571067
+   },
+   "trigger": 13.73
+  }
+ ],
+ "summary": {
+  "method": "base",
+  "heldout": true,
+  "episodes": 20,
+  "success_rate": 0.0,
+  "mean_value": 0.0,
+  "by_failure": {
+   "F7": {
+    "n": 6,
+    "success": 0,
+    "value": 0.0,
+    "aborts": 6
+   },
+   "F1": {
+    "n": 14,
+    "success": 0,
+    "value": 0.0,
+    "aborts": 14
+   }
+  },
+  "determinism": null,
+  "llm_calls": 0
+ },
+ "args": {
+  "library": null,
+  "state": null,
+  "base": true,
+  "expert": false,
+  "episodes": 20,
+  "inject": [
+   "F1",
+   "F7"
+  ],
+  "missions": [
+   "M1",
+   "M2"
+  ],
+  "heldout": true,
+  "ndet": 0,
+  "seed": 0,
+  "instance": 5,
+  "time_scale": 10.0,
+  "out": "runs/matrix/frozen_base_s0_heldout.json",
+  "tree_dir": null,
+  "verbose": false
+ },
+ "det_hashes": []
+}

@@ -1,0 +1,61 @@
+{
+ "class": "scout",
+ "mission": "M1",
+ "applied": [
+  {
+   "patch_id": "p0010",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    19.267,
+    20.2286,
+    19.4914,
+    7.7785
+   ],
+   "score": -0.0873,
+   "uses": 1,
+   "successes": 0
+  },
+  {
+   "patch_id": "p0001",
+   "anchor": "guarded_flight",
+   "operator": "WrapFallback",
+   "theta": [
+    17.7076,
+    4.8324,
+    4.2205
+   ],
+   "score": 0.7589,
+   "uses": 14,
+   "successes": 11
+  },
+  {
+   "patch_id": "p0006",
+   "anchor": "ReactiveSequence_1",
+   "operator": "ReplaceSubtree",
+   "theta": [
+    15.8582,
+    5.9998,
+    5.9884
+   ],
+   "score": 0.8411,
+   "uses": 9,
+   "successes": 8
+  },
+  {
+   "patch_id": "p0008",
+   "anchor": "wp1",
+   "operator": "WrapFallback",
+   "theta": [
+    35.0226
+   ],
+   "score": 0.6698,
+   "uses": 5,
+   "successes": 4
+  }
+ ],
+ "skipped": [],
+ "nodes": 37,
+ "depth": 10,
+ "base_nodes": 15
+}

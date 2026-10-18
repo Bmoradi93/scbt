@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scbt"
+version = "0.1.0"
+description = "Self-Crystallizing Behavior Trees: amortizing foundation-model reasoning into deterministic Behavior Tree control"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Behnam Moradi" }]
+dependencies = [
+    "py-trees>=2.2",
+    "cma>=3.3",
+    "numpy",
+    "commentjson",
+]
+
+# ``projectairsim`` (the simulator client) is not on PyPI; it ships inside a
+# Project AirSim checkout at client/python/projectairsim and must be
+# installed separately (editable). See README "Setup".
+[project.optional-dependencies]
+llm = ["google-adk>=2.0"]
+embedding = ["sentence-transformers>=3.0"]
+report = ["matplotlib"]
+all = ["google-adk>=2.0", "sentence-transformers>=3.0", "matplotlib"]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["scbt*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

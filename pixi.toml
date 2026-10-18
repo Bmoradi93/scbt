@@ -1,0 +1,39 @@
+[workspace]
+name = "scbt"
+version = "0.1.0"
+description = "Self-Crystallizing Behavior Trees: amortizing foundation-model reasoning into deterministic Behavior Tree control"
+authors = ["Behnam Moradi"]
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[tasks]
+test            = { cmd = "python -m pytest -q tests" }
+runtime         = { cmd = "python -m scbt.sim.launch_runtime" }
+episode         = { cmd = "python -m scbt.bench.episode" }
+learn           = { cmd = "python -m scbt.bench.learn" }
+frozen          = { cmd = "python -m scbt.bench.frozen" }
+crystallize     = { cmd = "python -m scbt.crystallize" }
+matrix          = { cmd = "python -m scbt.bench.matrix" }
+report          = { cmd = "python -m scbt.bench.report" }
+
+[dependencies]
+python = "3.10.*"
+pip = "*"
+numpy = "*"
+pytest = "*"
+
+[pypi-dependencies]
+scbt = { path = ".", editable = true }
+py-trees = ">=2.2"
+cma = ">=3.3"
+commentjson = ">=0.9.0"
+# Optional, needed only for the live LLM proposer and the sentence embedder;
+# the mock proposer and a hashing-based embedding fallback work without them.
+google-adk = ">=2.0"
+sentence-transformers = ">=3.0"
+matplotlib = "*"
+
+# ``projectairsim`` (the Project AirSim Python client) is NOT a PyPI package.
+# It is not listed here; see README.md "Setup" to install it editable from a
+# Project AirSim checkout into this same environment:
+#   pixi run python -m pip install -e /path/to/ProjectAirSim/client/python/projectairsim
