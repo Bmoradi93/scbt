@@ -1,5 +1,21 @@
+% RAS submission margin requirements (checked by the PaperCept compliance
+% tool) are tighter at the top and bottom than IEEEtran's own conference
+% defaults: top >= 60pt (p.1) / 57pt (other pages), bottom >= 43pt. These
+% must be set before \documentclass so IEEEtran picks them up while laying
+% out the page.
+\def\CLASSINPUTtoptextmargin{0.90in}
 \documentclass[conference]{IEEEtran}
+% Peg the footer (page number) an explicit, safe distance above the
+% physical page bottom, rather than letting IEEEtran center it in the
+% margin band (which left it only ~0.35in above the edge).
+\IEEEsetfootermargin{b}{54pt}
 \IEEEoverridecommandlockouts
+% T1 fontenc: without it, the engine falls back to CID Latin Modern glyphs
+% whose metrics do not match the Times (ptm) family IEEEtran requests,
+% which lets rendered glyphs drift past their allotted width and bleed into
+% the page margins on text-heavy pages. T1 resolves to the metric-matched
+% Nimbus Roman/Sans/Mono outlines instead.
+\usepackage[T1]{fontenc}
 % Packages: cite, amsmath, amssymb, amsfonts, algorithm, algorithmic, graphicx,
 % textcomp, xcolor, booktabs, url. All ship with TeX Live / MiKTeX.
 \usepackage{cite}
@@ -25,13 +41,14 @@
 
 \title{Self-Crystallizing Behavior Trees: Amortizing Foundation-Model Reasoning into Deterministic Control for Autonomous Drones}
 
-\author{\IEEEauthorblockN{Behnam Moradi}
-\IEEEauthorblockA{\textit{Software Department, KavAI.}\\
-California, USA \\
-behnam.moradi@kavai.com}
-}
+\author{\IEEEauthorblockN{Anonymous Author(s)}}
 
 \maketitle
+% IEEEtran suppresses headers/footers in conference mode by default (page
+% numbers are normally assigned later by the proceedings). Turn on plain
+% page numbering for the review manuscript.
+\thispagestyle{plain}
+\pagestyle{plain}
 
 \begin{abstract}
 Classical robot control architectures, Finite State Machines (FSMs) and Behavior Trees (BTs), are deterministic, inspectable, and fast, but fixed at design time: they fail on the long tail of situations their designers did not anticipate. Foundation models can synthesize new control logic at runtime, at the price of latency, cost, and non-determinism that are hard to accept in safety-critical aerial systems. Existing LLM-driven approaches keep the model permanently in the loop and discard what it produces after each use. We propose \emph{Self-Crystallizing Behavior Trees} (SCBT), in which the foundation model is a \emph{compiler} rather than a \emph{runtime}. When a node of a vehicle's BT fails, an LLM proposes a minimal subtree \emph{patch} in a constrained, mission-agnostic grammar; CMA-ES tunes the patch's continuous parameters in simulation; a contextual bandit decides whether a stored patch or a new LLM call is worth paying for; and a three-stage admission pipeline (static check, invariant monitors over randomized replays, and an empirical margin over the unpatched tree) admits only patches that demonstrably recover. Admitted patches are stored in a fleet library indexed by failure context and, once the LLM call rate has decayed, \emph{crystallized} into a conventional deterministic BT that no human wrote. We implement SCBT on Microsoft Project AirSim with a schema-constrained LLM pipeline (Google ADK, Gemini~3.1~Pro) and a lockstep simulator. Over three seeds of a 20-episode learning phase with injected wind-gust and battery failures, SCBT used $11\pm1.4$ LLM calls against 26 for whole-tree regeneration and 22 for patching without a library, with 0.33 calls per episode in the second half. The crystallized trees, with 28 and 33 nodes and two patches each, reached $97\pm2\%$ mission success on the curriculum with no learning component running, against 12\% for the unpatched base tree and 98\% for a hand-coded expert tree; re-ticked offline against recorded observations they reproduce their online decision traces exactly. Two negative results are reported: replay admission as parameterized rejected useful wind recoveries because it attributed wind-induced geofence excursions to the patch, and the static-only ablation generalized better to held-out failures as a consequence.
@@ -341,8 +358,7 @@ Three observations argue for empirical admission; a fourth argues against the pa
 \label{sec:conclusion}
 The adaptability of foundation models and the determinism of classical control are usually presented as a choice. SCBT sequences them: an LLM proposes structure when a Behavior Tree fails, CMA-ES tunes it, replay admission gates it, a bandit learns when to stop asking, and the library compiles into an ordinary deterministic tree. On Project AirSim, the learning phase needed $11\pm1.4$ LLM calls in 20 episodes against 26 for regeneration, and the crystallized trees, with two patches each, matched a hand-coded expert tree on the training distribution with no model running and with decision traces that are an exact function of their observations. The admission pipeline caught safe-but-useless patches, an optimizer exploiting its objective, and a patch that deleted mission goals; it also wrongly rejected wind recoveries by attributing the wind's geofence excursions to the patch, and the static-only ablation generalized better as a result. Future work: relative invariant checks in admission, the fleet and cross-class experiments, the rendering host with VLM context, and deployment of crystallized trees on PX4 hardware.
 
-\section*{Acknowledgment}
-The author thanks the IAMAI Simulations team for maintaining Project AirSim and its headless runtime, on which all experiments were run.
+% Acknowledgments omitted for double-anonymous review.
 
 \begin{thebibliography}{00}
 \bibitem{colledanchise2018bt} M. Colledanchise and P. \"Ogren, \emph{Behavior Trees in Robotics and AI: An Introduction}. CRC Press, 2018. arXiv:1709.00084.

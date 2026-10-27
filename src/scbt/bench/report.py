@@ -80,6 +80,10 @@ def main(argv=None) -> int:
         try:
             import matplotlib
             matplotlib.use("Agg")
+            # Embed real (scalable) fonts rather than Type 3 bitmap fonts,
+            # which several journal PDF compliance checkers reject.
+            matplotlib.rcParams["pdf.fonttype"] = 42
+            matplotlib.rcParams["ps.fonttype"] = 42
             import matplotlib.pyplot as plt
             fig, ax = plt.subplots(figsize=(4.2, 2.8))
             for m, c in curves.items():
